@@ -7,16 +7,18 @@ import java.util.Scanner;
 public class Solution {
 	public static void main(String[]  args){
 		Scanner in = new Scanner(new InputStreamReader(System.in));
-		int methodIndex = in.nextInt();
+		int methodIndex = 1;//in.nextInt();
 		
-		int input;
-		while ((input = in.nextInt()) != -1){
+		long input;
+		while (in.hasNext()){
+			input = in.nextLong();
 			switch (methodIndex) {
 			case 1:
 				showResult(isFibByGeneration(input));
 				break;
 			case 2:
 				showResult(isFibByFormula(input));
+				break;
 			default:
 				break;
 			}
@@ -26,10 +28,10 @@ public class Solution {
 	public static void showResult(boolean b){
 		System.out.println(b ? "IsFibo" : "IsNotFibo");
 	}
-	public static boolean isFibByGeneration(int x){
-		int a = 0;
-		int b = 1;
-		int f = 1;
+	public static boolean isFibByGeneration(long x){
+		long a = 0;
+		long b = 1;
+		long f = 1;
 		while (b < x){
 			f = a + b;
 			a = b;
@@ -37,7 +39,7 @@ public class Solution {
 		}
 		return x == f;
 	}
-	private static boolean isFibByFormula(int num) {
+	private static boolean isFibByFormula(long num) {
 		
 //	    double first = 5 * Math.pow((num), 2) + 4;
 //	    double second = 5 * Math.pow((num), 2) - 4;
