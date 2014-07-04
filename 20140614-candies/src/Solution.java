@@ -30,6 +30,8 @@ public class Solution {
 		for (int i = 0; i < numKids; i++) {
 			kidCandies[i] = 1;
 		}
+		
+		// calculate candies
 		int counter = 0;
 		do{
 			counter ++;
@@ -37,8 +39,6 @@ public class Solution {
 		}
 		while (sortArray(kidRating, kidCandies, counter % 2 == 0));
 
-		if (_DEBUG_)
-			System.out.println();
 
 		int total = 0;
 		for (int i : kidCandies)
@@ -46,9 +46,6 @@ public class Solution {
 		System.out.println(total);
 	}
 
-	private static int getCandies(int a, int b, int c) {
-		return 0;
-	}
 
 	private static boolean sortArray(int[] kidRating, int[]kidCandies, boolean inverse) {
 		boolean ifChanged = false;

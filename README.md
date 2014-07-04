@@ -1,3 +1,6 @@
+#hackerrank
+=============
+
 My own practice following:
 https://www.hackerrank.com/categories/algorithms/warmup
 
@@ -10,7 +13,7 @@ what changed my mind?
 WHO CARES!
 
 project name			rating(1-5)	webpage
-20140614-angry-children		3		https://www.hackerrank.com/challenges/angry-children
-20140614-is-fibo		2		https://www.hackerrank.com/challenges/is-fibo
-20140614-candies		4		https://www.hackerrank.com/challenges/candies/forum/questions
+[20140614-angry-children](20140614-angry-children)		3		https://www.hackerrank.com/challenges/angry-children
+[20140614-is-fibo](20140614-is-fibo)		2		https://www.hackerrank.com/challenges/is-fibo
+[20140614-candies](20140614-is-fibo)		4		https://www.hackerrank.com/challenges/candies/forum/questions
 
