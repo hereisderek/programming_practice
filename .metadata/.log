@@ -6494,3 +6494,29 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.php
 
 !ENTRY org.eclipse.ui 4 4 2014-07-05 06:15:25.741
 !MESSAGE Conflicting handlers for org.eclipse.ui.file.print: {ActionHandler(org.eclipse.ui.texteditor.TextOperationAction@33c2b82e)} vs {ActionHandler(org.eclipse.ui.texteditor.AbstractDecoratedTextEditor$12@4c4bea86)}
+
+!ENTRY org.eclipse.ui 4 4 2014-07-05 06:16:44.136
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.print: {ActionHandler(org.eclipse.ui.texteditor.TextOperationAction@33c2b82e)} vs {ActionHandler(org.eclipse.ui.texteditor.AbstractDecoratedTextEditor$12@4c4bea86)}
+
+!ENTRY org.eclipse.egit.core 4 0 2014-07-05 06:16:50.883
+!MESSAGE An exception occurred during push on URI git@github.com:1and1get2/hackerrank.git: git@github.com:1and1get2/hackerrank.git: Auth fail
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: git@github.com:1and1get2/hackerrank.git: Auth fail
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:160)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:228)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI.execute(PushOperationUI.java:167)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI$1.run(PushOperationUI.java:229)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.jgit.errors.TransportException: git@github.com:1and1get2/hackerrank.git: Auth fail
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:145)
+	at org.eclipse.jgit.transport.SshTransport.getSession(SshTransport.java:121)
+	at org.eclipse.jgit.transport.TransportGitSsh$SshPushConnection.<init>(TransportGitSsh.java:306)
+	at org.eclipse.jgit.transport.TransportGitSsh.openPush(TransportGitSsh.java:152)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:154)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1173)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:156)
+	... 4 more
+Caused by: com.jcraft.jsch.JSchException: Auth fail
+	at com.jcraft.jsch.Session.connect(Session.java:512)
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:116)
+	... 10 more
