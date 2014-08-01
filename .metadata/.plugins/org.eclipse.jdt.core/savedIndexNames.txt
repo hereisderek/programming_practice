@@ -1,5 +1,20 @@
-INDEX VERSION 1.127+E:\program\hackerrank\.metadata\.plugins\org.eclipse.jdt.core
-2052541776.index
-3647273613.index
-2867146920.index
-1530488416.index
+INDEX VERSION 1.127+/media/DATA/program/hackerrank/.metadata/.plugins/org.eclipse.jdt.core
+120211678.index
+3214207201.index
+2630498905.index
+2771403403.index
+2066489604.index
+183494537.index
+729926841.index
+2233963263.index
+3885805113.index
+1913109094.index
+46282419.index
+3396246431.index
+1904023351.index
+3721837726.index
+3888198363.index
+2841451250.index
+1275442784.index
+2982035129.index
+742522455.index
