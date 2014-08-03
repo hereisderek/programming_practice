@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.nio.Buffer;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -11,7 +12,7 @@ import java.util.Scanner;
 // The part of the program involving reading from STDIN and writing to STDOUT has been provided by us.
 // score for each testcase = (1 + #initialPegs - #pegsLeft) * 10/#initialPegs
 public class Solution {
-	public static boolean _DEBUG_ = true;
+	public static boolean _DEBUG_ = !true;
 	public static enum MOVE {UP, DOWN, LEFT, RIGHT};
 	public static enum CHARACTER {
 		EMPTY (45), PEG (46), INACCESSIBLE(120);
@@ -54,7 +55,7 @@ public class Solution {
 		}
 		return i;
 	}
-	private static void printMatrix(int[][] a){
+	private static void printMatrix(char[][] a){
 		int n = a.length;
 		int m = a[0].length;
 		for (int i = 0; i < n; i ++){
@@ -71,16 +72,17 @@ public class Solution {
 			testcaseList = new ArrayList<Testcase>();
 		}
 		private void main(String[] args) throws NumberFormatException, IOException {
-			Scanner scanner = new Scanner(in);
+			Scanner scanner = new Scanner(in.readLine());
 			int m = scanner.nextInt();
 			int n = scanner.nextInt();
 			
-			int matrix[][] = new int[n][m];
+			char matrix[][] = new char[n][m];
 			for (int i = 0; i < n; i ++){
 				String line = in.readLine();
 				
 				for (int j = 0; j < m; j++){
 					matrix[i][j] = line.charAt(j);
+					//matrix[i][j] = (char)in.read();
 				}
 			}
 			
@@ -99,10 +101,18 @@ public class Solution {
 			}
 			
 			// show result
-			if (_DEBUG_) printMatrix(tcResult.getMatrix());
+			if (_DEBUG_) {
+				System.out.println("final matrix: ");
+				printMatrix(tcResult.getMatrix());
+				System.out.println("final score: " + tcResult.score(initialPegs));
+			}
 			System.out.println(tcResult.getOutput().size());
 			for (String str : tcResult.getOutput()) {
-				System.out.println(str);
+				//System.out.println(str);
+			}
+			for (int i = 0; i < tcResult.getOutput().size(); i++){
+				System.out.println(tcResult.getOutput().get(i));
+				if (_DEBUG_)printMatrix(tcResult.matrixList.get(i));
 			}
 		}
 		private Testcase calculateTestCase(Testcase t){
@@ -133,25 +143,27 @@ public class Solution {
 	}
 	
 	private class Testcase{
-		private int matrix[][];
+		private char matrix[][];
+		private List<char[][]> matrixList;
 		private int m, n;
 		private List<String> output;
 		//private double _score;
 		
-		public Testcase(int[][] matrix) {
+		public Testcase(char[][] matrix) {
 			// TODO Auto-generated constructor stub
 			this.matrix = matrix;
 			this.setMatrix(matrix);
 			n = matrix.length;
 			m = matrix[0].length;
-			output = new ArrayList<>();
+			output = new ArrayList<String>();
+			matrixList = new ArrayList<char[][]>();
 		}
 		
-		public int[][] getMatrix() {
+		public char[][] getMatrix() {
 			return matrix.clone();
 		}
 
-		public void setMatrix(int[][] matrix) {
+		public void setMatrix(char[][] matrix) {
 			this.matrix = matrix.clone();
 		}
 
@@ -183,11 +195,21 @@ public class Solution {
 		public void setOutput(List<String> output) {
 			this.output = output;
 		}
+		
+
+		public List<char[][]> getMatrixList() {
+			return matrixList;
+		}
+
+		public void setMatrixList(List<char[][]> matrixList) {
+			this.matrixList = matrixList;
+		}
 
 		@Override
 		protected Testcase clone() {
-			Testcase tc = new Testcase(this.matrix);
+			Testcase tc = new Testcase(this.matrix.clone());
 			tc.setOutput(output);
+			tc.setMatrixList(matrixList);
 			return tc;
 		}
 		public Testcase move(int x, int y, MOVE move){
@@ -223,11 +245,12 @@ public class Solution {
 				if (matrix[holeY][holeX] != CHARACTER.EMPTY.getValue()) throw new Exception(String.format("hole position (%d, %d) of (%d, %d) for %s is not EMPTY", holeX, holeY, x, y, move));
 				
 				// do the job
-				matrix[adjacentY][adjacentX] = CHARACTER.EMPTY.getValue();
-				matrix[holeY][holeX] = CHARACTER.PEG.getValue();
-				matrix[y][x] = CHARACTER.EMPTY.getValue();
+				matrix[adjacentY][adjacentX] = (char)CHARACTER.EMPTY.getValue();
+				matrix[holeY][holeX] = (char)CHARACTER.PEG.getValue();
+				matrix[y][x] = (char)CHARACTER.EMPTY.getValue();
 				
 				this.output.add(String.format("%d %d %s", x, y, move));
+				this.matrixList.add(getMatrixClone());
 				if (_DEBUG_) System.out.println(String.format("%d %d %s", x, y, move));;
 			} catch (Exception e) {
 				if (_DEBUG_) System.out.println(e.getMessage());
@@ -235,7 +258,16 @@ public class Solution {
 			}
 			return (result ? this.clone() : null);
 		}
-
+		private char[][] getMatrixClone(){
+			char[][] clone = new char[matrix.length][];
+			for (int i = 0; i < matrix.length; i++){
+				char[] aMatrix = matrix[i];
+				int aLen = aMatrix.length;
+				clone[i] = new char[aLen];
+				System.arraycopy(aMatrix, 0, clone[i], 0, aLen);
+			}
+			return clone;
+		}
 		private int pegsLeft(){
 			int s = 0;
 			for (int i = 0; i < n; i ++){
