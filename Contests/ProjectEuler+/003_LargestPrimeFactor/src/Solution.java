@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 /* Author: Derek Zhu
  * 1and1get2@gmail.com
- * 
+ * https://www.hackerrank.com/contests/projecteuler/challenges/euler003
  * */
 // The part of the program involving reading from STDIN and writing to STDOUT has been provided by us.
 
@@ -27,14 +27,12 @@ public class Solution {
 		
 		
 	}
-
 	private static void calculateCase(Long input) throws IOException{
 
 		if (D) System.out.println("Processing: " + input);
+		long largestPF = input;
 		
-
 		
-		if (D) System.out.print("Final calculate: ");
 		System.out.println(input);
 	}
 }
