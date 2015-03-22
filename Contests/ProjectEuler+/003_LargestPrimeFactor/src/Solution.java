@@ -29,10 +29,23 @@ public class Solution {
 	}
 	private static void calculateCase(Long input) throws IOException{
 
-		if (D) System.out.println("Processing: " + input);
-		long largestPF = input;
+		if (D) System.out.print("Processing: " + input);
+		long largestPF = prime(input);
 		
+		if (D) System.out.println("Final calculate: ");
+		System.out.println(largestPF);
+	}
+	private static long prime(long n){
+		long i = 2;
+		while ( n % i != 0 && i < n){
+			i ++;
+		}
+		if (D) System.out.println("found i: " + i);
 		
-		System.out.println(input);
+		if (i < n){
+			return prime(n/i);
+		} else {
+			return n;
+		}
 	}
 }
