@@ -30,23 +30,21 @@ public class Solution {
 		
 	}
 	private static void calculateCase(Long N) throws IOException{
-		long max = N;
+		// a little workaround, might not that elegant but it get the work done
+		long max = (long) (N - 0.1);
 		long sum = 0;
 		if (D) System.out.println("Processing: " + max);
 		long times5 = max / 5;
 		long times3 = max / 3;
-		for (int i = 1; i <= times5 && i * 5 < max; i++){
-			sum += i * 5;
-			if (D) System.out.println("adding: " + i * 5);
-		}
-		for (int i = 1; i <= times3 && i * 3 < max; i++){
-			if( i * 3 % 5 != 0){ 
-				sum += i * 3;
-				if (D) System.out.println("adding: " + i * 3);
-			}
-			
-		}
+		long times15 = max / 15;
 		
+		long sum3 = 3 * ( 1 + times3) * times3 / 2;
+		long sum5 = 5 * ( 1 + times5) * times5 / 2;
+		long sum15 = 15 * ( 1 + times15) * times15 / 2;
+		
+		if (D) System.out.println("sum3:" + sum3 + " sum5:" + sum5 + " sum15:" + sum15);
+		
+		sum = sum3 + sum5 - sum15;
 		
 		System.out.println(sum);
 	}
