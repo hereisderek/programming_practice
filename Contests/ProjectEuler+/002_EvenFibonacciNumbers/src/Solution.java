@@ -27,16 +27,34 @@ public class Solution {
 		
 		
 	}
-	private static void calculateCase(Long N) throws IOException{
+	private static void calculateCase(Long max) throws IOException{
+		if (D) System.out.println("Processing: " + max);
 		long[] fib;
+		fib = new long[30];
 		
-		fib = new long[25];
-		for (int i = 1; ; i++){
+		fib[0] = 2; fib[1] = 10;
+		long cal1 = (long) 5, cal2 = (long) 8;
+		int index = 1;
+
+		for (int i = 1; i < max; i++){
+			long newCal = cal1 + cal2;
+			if (newCal >= max) break;
+			if (D) System.out.print("Getting a new cal: " + newCal);
+			if (newCal %2 == 0){
+				index++;
+				if (D) System.out.println("   And it is an odd number, adding to index: " + (index));
+				fib[index] = newCal + fib[index-1];
+				
+			} else {
+				if (D) System.out.println("   But it is not an odd number");
+			}
+			cal1 = cal2;
+			cal2 = newCal;
 			
 		}
-		if (D) System.out.println("Processing: " + N);
 
-		
-		System.out.println(N);
+
+		if (D) System.out.print("Final calculate: ");
+		System.out.println(fib[index]);
 	}
 }
