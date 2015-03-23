@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
@@ -29,10 +30,10 @@ public class Solution {
 	}
 	private static void calculateCase(Long input) throws IOException{
 
-		if (D) System.out.print("Processing: " + input);
+		if (D) System.out.println("Processing: " + input);
 		long largestPF = prime(input);
 		
-		if (D) System.out.println("Final calculate: ");
+		if (D) System.out.print("Final calculate: ");
 		System.out.println(largestPF);
 	}
 	private static long prime(long n){
@@ -40,12 +41,29 @@ public class Solution {
 		while ( n % i != 0 && i < n){
 			i ++;
 		}
-		if (D) System.out.println("found i: " + i);
+		if (D) System.out.println("found factor i: " + i);
 		
 		if (i < n){
 			return prime(n/i);
 		} else {
 			return n;
 		}
+	}
+	public static int primeFactors(BigInteger number)     {
+	    BigInteger copyOfInput = number;
+	    int lastFactor = 0;
+	    for (int i = 2;
+	    BigInteger.valueOf(i)
+	    .compareTo(copyOfInput) <= 0; i++) {
+	        if (copyOfInput.mod(BigInteger.valueOf(i))
+	        .compareTo(BigInteger.ZERO) == 0) 
+	        {
+	            lastFactor = i;
+	            copyOfInput = copyOfInput
+	            .divide(BigInteger.valueOf(i));
+	            i--;
+	        }
+	    }
+	    return lastFactor;
 	}
 }
