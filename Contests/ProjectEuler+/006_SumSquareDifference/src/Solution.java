@@ -22,21 +22,37 @@ public class Solution {
 		int numOfCases = Integer.parseInt(in.readLine());
 		
 		for (int i = 0; i < numOfCases; i++){
-			calculateCase(Long.parseLong(in.readLine())); 
+			calculateCase(Integer.parseInt(in.readLine())); 
 		}
 		
 		
 	}
 
-	private static void calculateCase(Long input) throws IOException{
+	private static void calculateCase(int input) throws IOException{
 
 		if (D) System.out.println("Processing: " + input);
 		long time = System.nanoTime();
 		
-		long result = 0L;
-
+		long result = sumSquare(input) - squareSum(input);
+		 result = result > 0 ? result : -result;
 		
 		if (D) System.out.println("Final calculate: " + result + " Time required to calculate in nanoseconds: " + (System.nanoTime() - time));
 		if (!D) System.out.println(result);
+	}
+//	The sum of the squares of the natural numbers
+	public static Long sumSquare(int max){
+		long result = 0;
+		for (int i = 1; i <= max; i++){
+			result += i * i;
+		}
+		return result;
+	}
+//	The square of the sum of the natural numbers
+	public static Long squareSum(int max){
+		long result = 0;
+		for (int i = 1; i <= max; i++){
+			result += i;
+		}
+		return result * result;
 	}
 }
