@@ -30,40 +30,52 @@ public class Solution {
 		
 	}
 	private static void calculateCase(Long input) throws IOException{
-//		889565456876
+//		889565456876 / 4
+//		222391364219
 		factor = 2;
 		
-		long time = System.nanoTime();
+
 		if (D) System.out.println("Processing: " + input);
 		long largestPF;
 		
+		long time = System.nanoTime();
 		largestPF = prime2(input);
 		if (D) System.out.println("Final calculate: " + largestPF + " Time required to calculate in nanoseconds: " + (System.nanoTime() - time));
 		
-		largestPF = method2(input);
-		time = System.nanoTime();
-		if(D) System.out.println("Final calculate 2: " + largestPF + " Time required to calculate in nanoseconds: " + (System.nanoTime() - time));
+//		largestPF = method2(input);
+//		time = System.nanoTime();
+//		if(D) System.out.println("Final calculate 2: " + largestPF + " Time required to calculate in nanoseconds: " + (System.nanoTime() - time));
 		
 		if (!D) System.out.println(largestPF);
 	}
 	private static long method2(long NUMBER){
+		if (D) System.out.println("Processing: " + NUMBER + " in method 2");
 		long result = 0;
 		if (isPrime(NUMBER)) return NUMBER;
+		if (D) System.out.print("calculating i: ");
         for(int i = 2; i < NUMBER; i++) {
+        	if (D) System.out.print(i + "\t");
             if(NUMBER % i == 0 && isPrime(NUMBER / i)) {
+            	if (D)System.out.println();
                 result = NUMBER / i;
                 break;
             }
         }
+        if (D)System.out.println();
 		return result;
         
 	}
-	private static boolean isPrime(long l) {
+	public static boolean isPrime(long l) {
+		if (D) System.out.print("is " + l + " a prime?");
+		if (D) System.out.print("Checking num: ");
         for(long num = 2, max = l / 2 ; num < max; num++) {
+        	if (D) System.out.print(num + "\t");
             if(l % num == 0) {
+            	if (D)System.out.println(" Nope");
                 return false;
             }
         }
+        if (D)System.out.println(" Yep");
         return true;
     }
 	private static long prime(long n){
@@ -83,6 +95,7 @@ public class Solution {
 		
 		while ( n % factor != 0 && factor < n){
 			factor ++;
+			if (D) if (factor % 1000 == 0) System.out.println("working on factor: " + factor);
 		}
 		if (D) System.out.println("found factor i: " + factor);
 		
