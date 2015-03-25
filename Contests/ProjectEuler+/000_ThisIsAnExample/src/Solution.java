@@ -37,6 +37,6 @@ public class Solution {
 
 		
 		if (D) System.out.print("Final calculate: " + result + " Time required to calculate in nanoseconds: " + (System.nanoTime() - time));
-		System.out.println(input);
+		if (!D) System.out.println(result);
 	}
 }
