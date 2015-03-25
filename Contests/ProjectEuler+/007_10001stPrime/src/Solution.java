@@ -23,21 +23,29 @@ public class Solution {
 		int numOfCases = Integer.parseInt(in.readLine());
 		
 		for (int i = 0; i < numOfCases; i++){
-			calculateCase(Long.parseLong(in.readLine())); 
+			calculateCase(Integer.parseInt(in.readLine())); 
 		}
 		
 		
 	}
 
-	private static void calculateCase(Long input) throws IOException{
+	private static void calculateCase(int input) throws IOException{
 
 		if (D) System.out.println("Processing: " + input);
 		long time = System.nanoTime();
 		
-		long result = 0L;
-
+		long result = getPrimeArray(input)[input - 1];
+		
 		
 		if (D) System.out.println("Final calculate: " + result + " Time required to calculate in nanoseconds: " + (System.nanoTime() - time));
 		if (!D) System.out.println(result);
+	}
+	public static long[] getPrimeArray(int num){
+		long[] array = new long[num];
+		if (num >= 1){
+			array[0] = 2;
+			for (int i = 1; i < Math.sqrt(a))  //TO be continued
+		}
+		return array;
 	}
 }
