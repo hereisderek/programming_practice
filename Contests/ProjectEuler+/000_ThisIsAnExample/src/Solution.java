@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 /* Author: Derek Zhu
  * 1and1get2@gmail.com
- * https://www.hackerrank.com/contests/projecteuler/challenges/euler006
+ * 
  * */
 // The part of the program involving reading from STDIN and writing to STDOUT has been provided by us.
 

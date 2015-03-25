@@ -8,6 +8,7 @@ import java.util.Scanner;
 /* Author: Derek Zhu
  * 1and1get2@gmail.com
  * https://www.hackerrank.com/contests/projecteuler/challenges/euler006
+ * http://beginnersbook.com/2014/01/java-program-to-display-first-n-or-first-100-prime-numbers/
  * */
 // The part of the program involving reading from STDIN and writing to STDOUT has been provided by us.
 
