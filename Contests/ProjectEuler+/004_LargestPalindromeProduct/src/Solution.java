@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 /* Author: Derek Zhu
  * 1and1get2@gmail.com
- * https://www.hackerrank.com/contests/projecteuler/challenges/euler004
+ * https://www.hackerrank.com/contests/projecteuler/challenges/euler005
  * */
 // The part of the program involving reading from STDIN and writing to STDOUT has been provided by us.
 
@@ -47,7 +47,7 @@ public class Solution {
 
 		
 		if (D) System.out.print("For input:" + input + " Final calculate: " + max);
-		if (!D) System.out.println(input);
+		if (!D) System.out.println(max);
 	}
 	
 	private static boolean isPalindrome(int number){
