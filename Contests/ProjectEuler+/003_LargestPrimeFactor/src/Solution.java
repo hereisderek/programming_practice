@@ -39,12 +39,14 @@ public class Solution {
 		long largestPF;
 		
 		long time = System.nanoTime();
-		largestPF = prime2(input);
-		if (D) System.out.println("Final calculate: " + largestPF + " Time required to calculate in nanoseconds: " + (System.nanoTime() - time));
 		
-//		largestPF = method2(input);
-//		time = System.nanoTime();
-//		if(D) System.out.println("Final calculate 2: " + largestPF + " Time required to calculate in nanoseconds: " + (System.nanoTime() - time));
+		
+//		largestPF = prime2(input);
+//		if (D) System.out.println("Final calculate: " + largestPF + " Time required to calculate in nanoseconds: " + (System.nanoTime() - time));
+		
+		largestPF = method2(input);
+		time = System.nanoTime();
+		if(D) System.out.println("Final calculate 2: " + largestPF + " Time required to calculate in nanoseconds: " + (System.nanoTime() - time));
 		
 		if (!D) System.out.println(largestPF);
 	}
@@ -65,7 +67,7 @@ public class Solution {
 		return result;
         
 	}
-	public static boolean isPrime(long l) {
+	public static boolean isPrime2(long l) {
 		if (D) System.out.print("is " + l + " a prime?");
 		if (D) System.out.print("Checking num: ");
         for(long num = 2, max = l / 2 ; num < max; num++) {
@@ -78,6 +80,16 @@ public class Solution {
         if (D)System.out.println(" Yep");
         return true;
     }
+	public static boolean isPrime(long l){
+		boolean isPrime = true;
+		for (long i = 2; i < Math.sqrt(l) + 1; i++){
+			if (l % i == 0){
+				isPrime = false;
+				break;
+			}
+		}
+		return isPrime;
+	}
 	private static long prime(long n){
 		long i = 2;
 		while ( n % i != 0 && i < n){
