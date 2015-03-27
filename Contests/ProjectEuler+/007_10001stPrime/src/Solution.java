@@ -18,11 +18,13 @@ public class Solution {
 	static BufferedReader in = new BufferedReader(new InputStreamReader(
 			System.in));
 	static StringBuilder out = new StringBuilder();
-	
+	static long[] array = new long[10000];
 	
 	public static void main(String[] args) throws NumberFormatException,
 			IOException {
 		int numOfCases = Integer.parseInt(in.readLine());
+		
+		getPrimeArray(10000);
 		
 		for (int i = 0; i < numOfCases; i++){
 			calculateCase(Integer.parseInt(in.readLine())); 
@@ -49,14 +51,15 @@ public class Solution {
 		if (D) System.out.println("Processing: " + input);
 		long time = System.nanoTime();
 		
-		long result = getPrimeArray(input)[input - 1];
+//		long result = getPrimeArray(input)[input - 1];
 		
+		long result = array[input - 1];
 		
 		if (D) System.out.println("Final calculate: " + result + " Time required to calculate in nanoseconds: " + (System.nanoTime() - time));
 		if (!D) System.out.println(result);
 	}
 	public static long[] getPrimeArray(int num){
-		long[] array = new long[num];
+//		long[] array = new long[num];
 		if (num >= 1){
 			array[0] = 2;
 			long prime = 3;
