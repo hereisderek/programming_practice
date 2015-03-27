@@ -17,7 +17,8 @@ public class Solution {
 	static BufferedReader in = new BufferedReader(new InputStreamReader(
 			System.in));
 	static StringBuilder out = new StringBuilder();
-
+	
+	
 	public static void main(String[] args) throws NumberFormatException,
 			IOException {
 		int numOfCases = Integer.parseInt(in.readLine());
@@ -44,7 +45,24 @@ public class Solution {
 		long[] array = new long[num];
 		if (num >= 1){
 			array[0] = 2;
-			for (int i = 1; i < Math.sqrt(a))  //TO be continued
+			long prime = 3;
+			int index = 1;
+			
+			while (index < num){
+//				if (D) System.out.println("calculating " + (index +1));
+				boolean isPrime = true;
+				for (int i = 2; i <= Math.sqrt(prime) + 1; i++){
+					if (prime % i == 0 && prime != i){						
+						isPrime = false;
+						break;
+					}
+				} 
+				if (isPrime){
+					array[index] = prime;
+					index ++;
+				}
+				prime ++;
+			}
 		}
 		return array;
 	}
