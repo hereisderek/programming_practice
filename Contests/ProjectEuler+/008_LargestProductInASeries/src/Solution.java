@@ -12,7 +12,7 @@ import java.util.Scanner;
 // The part of the program involving reading from STDIN and writing to STDOUT has been provided by us.
 
 public class Solution {
-	public static boolean D = true;
+	public static boolean D = !true;
 	static BufferedReader in = new BufferedReader(new InputStreamReader(
 			System.in));
 	static StringBuilder out = new StringBuilder();
