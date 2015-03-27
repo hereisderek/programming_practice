@@ -9,6 +9,7 @@ import java.util.Scanner;
  * 1and1get2@gmail.com
  * https://www.hackerrank.com/contests/projecteuler/challenges/euler006
  * http://beginnersbook.com/2014/01/java-program-to-display-first-n-or-first-100-prime-numbers/
+ * Just checking all numbers of the form 6n - 1 and 6n + 1 for primality (limiting the divisor to sqrt(num) of course) 
  * */
 // The part of the program involving reading from STDIN and writing to STDOUT has been provided by us.
 
@@ -28,6 +29,19 @@ public class Solution {
 		}
 		
 		
+		
+/*		int counter = 0;
+		for (int i = 0; i < 10002; i++){
+			long time = System.nanoTime();
+			getPrimeArray(i);
+			long endTime = System.nanoTime();			
+			if (D) System.out.println("calculate: " + i + " Time required to calculate in nanoseconds: " + (endTime - time));
+			if ((endTime - time) >= 4 * Math.pow(10, 9)) {
+				System.err.println("Timed out");
+				counter ++;
+			}
+		}
+		System.out.println("Total timed out: " + counter);*/
 	}
 
 	private static void calculateCase(int input) throws IOException{
