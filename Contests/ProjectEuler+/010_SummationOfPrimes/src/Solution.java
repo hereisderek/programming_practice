@@ -38,17 +38,38 @@ public class Solution {
 	private static void calculateCase(int input) throws IOException{
 
 		if (D) System.out.println("Processing: " + input);
-		System.out.println(sum(getPrimeArray(input), input));
+//		System.out.println(sum(getPrimeArray(input), input, input));
+		System.out.println(
+				sum(getPrimeArrayLessThan(input), input, input)
+				);
 		
 	}
-	private static long sum(long[] a, int cut){
+/*	private static long sum(long[] a, int cut){
 		long sum = 0L;
 		for (long l : Arrays.copyOfRange(a, 0, cut)){
 			if (D)System.out.println("adding " + l);
 			sum += l;
 		}
 		return sum;
+	}*/
+	private static long sum(long[] a, int cut, int max){
+		long sum = 0L;
+/*		for (long l : Arrays.copyOfRange(a, 0, cut)){
+			
+			if (l > max) {
+				if (D)System.out.println("Break point");
+				break;
+			}
+			if (D)System.out.println("adding " + l);
+			sum += l;
+		}*/
+		for (int i = 0; a[i] <= max && i <= cut && a[i] != 0; i++){
+			if (D)System.out.println("adding " + a[i]);
+			sum += a[i];
+		}
+		return sum;
 	}
+	
 	public static long[] getPrimeArray(int num){
 //		long[] array = new long[num];
 		if (num >= 1){
@@ -66,6 +87,33 @@ public class Solution {
 					}
 				} 
 				if (isPrime){
+					array[index] = prime;
+					index ++;
+				}
+				prime ++;
+			}
+		}
+//		return array;
+		return Arrays.copyOfRange(array, 0, num);
+	}
+	public static long[] getPrimeArrayLessThan(int num){
+//		long[] array = new long[num];
+		if (num >= 1){
+			array[0] = 2;
+			long prime = array[index-1] + 1;
+//			int index = 1;
+			
+			while (prime <= num){
+//				if (D) System.out.println("calculating " + (index +1));
+				boolean isPrime = true;
+				for (int i = 2; i <= Math.sqrt(prime) + 1; i++){
+					if (prime % i == 0 && prime != i){						
+						isPrime = false;
+						break;
+					}
+				} 
+				if (isPrime){
+					if (D)System.out.println("Get a new prime: " + prime);
 					array[index] = prime;
 					index ++;
 				}
