@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="277a4a19-0ee4-42df-b90a-ae6b0831a2f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solution.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/JobTest/Atlassian2016_1/output/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/JobTest/Atlassian2016_1/output/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/JobTest/Atlassian2016_1/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/JobTest/Atlassian2016_1/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/JobTest/Atlassian2016_1/testcase/test_cases_18e5q43l0.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/JobTest/Atlassian2016_1/testcase/test_cases_18e5q43l0.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/JobTest/Atlassian2016_2/output/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/JobTest/Atlassian2016_2/output/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/JobTest/Atlassian2016_2/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/JobTest/Atlassian2016_2/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_AtlassianGraduate.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_AtlassianGraduate.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_AtlassianGraduate/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_AtlassianGraduate/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_AtlassianGraduate/test_cases_18e5q43l0.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_AtlassianGraduate/test_cases_18e5q43l0.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_AtlassianGraduate2/Graduate 2016 __ powered by HackerRank.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_AtlassianGraduate2/Graduate 2016 __ powered by HackerRank.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_AtlassianGraduate2/Graduate 20162 __ powered by HackerRank.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_AtlassianGraduate2/Graduate 20162 __ powered by HackerRank.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_AtlassianGraduate2/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_AtlassianGraduate2/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_AtlassianGraduate2/test_cases_12ti10f43.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_AtlassianGraduate2/test_cases_12ti10f43.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_AtlassianGraduateSampleTest1/test_cases_4c30cc1084e03.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_AtlassianGraduateSampleTest1/test_cases_4c30cc1084e03.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_TemplateForAllTests/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_TemplateForAllTests/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_TemplateForAllTests/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_TemplateForAllTests/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_TemplateForAllTests/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_TemplateForAllTests/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_ThisIsAnExample/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_ThisIsAnExample/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_ThisIsAnExample/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/000_ThisIsAnExample/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/001_MultiplesOf3And5/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/001_MultiplesOf3And5/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/001_MultiplesOf3And5/euler001-English.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/001_MultiplesOf3And5/euler001-English.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/001_MultiplesOf3And5/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/001_MultiplesOf3And5/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/001_MultiplesOf3And5/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/001_MultiplesOf3And5/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/002_EvenFibonacciNumbers/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/002_EvenFibonacciNumbers/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/002_EvenFibonacciNumbers/euler002-English.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/002_EvenFibonacciNumbers/euler002-English.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/002_EvenFibonacciNumbers/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/002_EvenFibonacciNumbers/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/003_LargestPrimeFactor/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/003_LargestPrimeFactor/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/003_LargestPrimeFactor/euler003-English.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/003_LargestPrimeFactor/euler003-English.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/003_LargestPrimeFactor/src/Calculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/003_LargestPrimeFactor/src/Calculate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/003_LargestPrimeFactor/src/Calculate2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/003_LargestPrimeFactor/src/Calculate2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/003_LargestPrimeFactor/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/003_LargestPrimeFactor/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/004_LargestPalindromeProduct/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/004_LargestPalindromeProduct/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/004_LargestPalindromeProduct/euler004-English.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/004_LargestPalindromeProduct/euler004-English.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/004_LargestPalindromeProduct/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/004_LargestPalindromeProduct/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/005_SmallestMultiple/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/005_SmallestMultiple/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/005_SmallestMultiple/euler005-English.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/005_SmallestMultiple/euler005-English.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/005_SmallestMultiple/src/CommonMultiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/005_SmallestMultiple/src/CommonMultiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/005_SmallestMultiple/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/005_SmallestMultiple/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/006_SumSquareDifference/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/006_SumSquareDifference/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/006_SumSquareDifference/euler006-English.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/006_SumSquareDifference/euler006-English.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/006_SumSquareDifference/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/006_SumSquareDifference/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/007_10001stPrime/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/007_10001stPrime/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/007_10001stPrime/euler007-English.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/007_10001stPrime/euler007-English.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/007_10001stPrime/src/GetPrimeArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/007_10001stPrime/src/GetPrimeArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/007_10001stPrime/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/007_10001stPrime/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/008_LargestProductInASeries/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/008_LargestProductInASeries/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/008_LargestProductInASeries/euler008-English.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/008_LargestProductInASeries/euler008-English.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/008_LargestProductInASeries/src/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/008_LargestProductInASeries/src/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/008_LargestProductInASeries/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/008_LargestProductInASeries/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/009_SpecialPythagoreanTriplet/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/009_SpecialPythagoreanTriplet/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/009_SpecialPythagoreanTriplet/euler009-English.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/009_SpecialPythagoreanTriplet/euler009-English.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/009_SpecialPythagoreanTriplet/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/009_SpecialPythagoreanTriplet/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/009_SpecialPythagoreanTriplet/src/caseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/009_SpecialPythagoreanTriplet/src/caseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/010_SummationOfPrimes/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/010_SummationOfPrimes/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/010_SummationOfPrimes/euler010-English.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/010_SummationOfPrimes/euler010-English.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/010_SummationOfPrimes/src/GetPrimeArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/010_SummationOfPrimes/src/GetPrimeArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/010_SummationOfPrimes/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/010_SummationOfPrimes/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/011_LargestProductInAGrid/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/011_LargestProductInAGrid/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/011_LargestProductInAGrid/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/011_LargestProductInAGrid/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/012_HighlyDivisibleTriangularNumber/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/012_HighlyDivisibleTriangularNumber/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/012_HighlyDivisibleTriangularNumber/euler012-English.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/012_HighlyDivisibleTriangularNumber/euler012-English.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/012_HighlyDivisibleTriangularNumber/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/012_HighlyDivisibleTriangularNumber/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/013_LargeSum/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/013_LargeSum/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/013_LargeSum/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/013_LargeSum/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/999_Test1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/999_Test1/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/999_Test1/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/999_Test1/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/999_Test2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/999_Test2/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/999_Test2/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Contests/ProjectEuler+/999_Test2/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Domains/algorithms/warmup_001/Solution.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Domains/algorithms/warmup_001/Solution.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Domains/algorithms/warmup_001/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Domains/algorithms/warmup_001/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Domains/algorithms/warmup_001/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Domains/algorithms/warmup_001/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Domains/algorithms/warmup_002_ExtraLongFactorials/src/warmup_002_ExtraLongFactorials/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Domains/algorithms/warmup_002_ExtraLongFactorials/src/warmup_002_ExtraLongFactorials/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140000-just-a-sample/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140000-just-a-sample/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140000-just-a-sample/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140000-just-a-sample/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140627-permutation-game/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140627-permutation-game/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140627-permutation-game/Solution.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140627-permutation-game/Solution.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140704-nCr table/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140704-nCr table/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140704-nCr table/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140704-nCr table/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140705-k-candy-store/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140705-k-candy-store/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140705-k-candy-store/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140705-k-candy-store/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140802-peg-solitaire/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140802-peg-solitaire/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140802-peg-solitaire/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140802-peg-solitaire/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140802-peg-solitaire/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/Previous/20140802-peg-solitaire/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Archive/2014/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Archive/2014/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../h_20190626/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../h_20190626/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../h_20190626/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../h_20190626/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../h_20190626/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../h_20190626/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../h_20190626/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../h_20190626/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../h_20190626/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../h_20190626/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../h_20190626/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../h_20190626/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../h_20190626/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../h_20190626/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../h_20190626/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../h_20190626/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../h_20190626/h_20190626.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../h_20190626/h_20190626.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../h_20190626/matrix-rotation-algo-English.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../h_20190626/matrix-rotation-algo-English.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../h_20190626/src/Solution.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../h_20190626/src/Solution.kt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Solution.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Strings.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="956" column="31" selection-start-line="956" selection-start-column="31" selection-end-line="956" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Solution.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1082" />
+    <option name="y" value="261" />
+    <option name="width" value="2472" />
+    <option name="height" value="1402" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="weekly-contest-161" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weekly-contest-161" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../../../Library/Google/android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidRunConfigurationType">
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="weekly-contest-161" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SolutionKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.SolutionKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="277a4a19-0ee4-42df-b90a-ae6b0831a2f7" name="Default Changelist" comment="" />
+      <created>1573036433943</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573036433943</updated>
+      <workItem from="1573036435247" duration="5769000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5769000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1082" y="261" width="2472" height="1402" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16748971" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32872504" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Key Promoter X" />
+      <window_info anchor="right" id="Json Parser" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/Solution.kt</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Strings.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="956" column="31" selection-start-line="956" selection-start-column="31" selection-end-line="956" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
