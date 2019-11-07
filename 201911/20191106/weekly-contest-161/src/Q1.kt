@@ -1,17 +1,30 @@
+import kotlin.system.measureNanoTime
 import kotlin.test.assertEquals
 
-val solution = Solution()
+
 
 
 fun main(){
-    // test(2, "xy", "yx")
-    // test(2, "xyx", "yxx")
-    test(1, "xx", "yy")
-    // test(4, "xxyyxyxyxx", "xyyxyxxxyx")
+    val solution = Solution()
+    val test1 = solution::minimumSwap
+    val test2 = solution::minimumSwap_124
+
+
+    print("test1 took: ${test(test1)}")
+    print("test2 took: ${test(test2)}")
 }
 
-fun test(expected: Int, s1: String, s2: String) {
-    assertEquals(expected, solution.minimumSwap(s1, s2), "$s1 - $s2")
+fun test(action: (String, String) -> Int) : Long = measureNanoTime {
+    for(i in 0 .. 0) {
+        test(2, "xy", "yx", action)
+        test(2, "xyx", "yxx", action)
+        test(1, "xx", "yy", action)
+        test(4, "xxyyxyxyxx", "xyyxyxxxyx", action)
+    }
+}
+
+fun test(expected: Int, s1: String, s2: String, action: (String, String) -> Int) {
+    assertEquals(expected, action(s1, s2), "$s1 - $s2")
 }
 
 class Solution {
